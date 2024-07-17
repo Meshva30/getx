@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx/controller/theme_controller.dart';
-import 'package:getx/view/counterscreen.dart';
+
 import 'package:getx/view/navigationscreen.dart';
-import 'package:getx/view/themescreen.dart';
+
+import 'controller/theme_controller.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -12,6 +13,7 @@ void main() {
 class MyApp extends StatelessWidget {
   final ThemeController themeController =  Get.put(ThemeController());
    MyApp({super.key});
+
 
   @override
   Widget build(BuildContext context) {
