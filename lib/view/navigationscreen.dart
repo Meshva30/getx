@@ -17,7 +17,7 @@ class Navigationscreen extends StatelessWidget {
       body: Center(
         child: GestureDetector(
           onTap: () {
-            Get.toNamed('/second',);
+            Get.to('second',transition: Transition.zoom);
           },
           child: SizedBox(
             height: 500,
